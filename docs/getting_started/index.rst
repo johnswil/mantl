@@ -190,7 +190,7 @@ and are stored in ``security.yml`` if you forgot them.
 
 Here is what you should be looking at after you connect and authenticate:
 
-.. image:: https://raw.githubusercontent.com/CiscoCloud/nginx-mantlui/master/screenshot.png
+.. image:: https://github.com/johnswil/Cisco-cloud-screen-shots/blob/master/Screen%20Shot%202016-06-16%20at%204.10.46%20PM.png
      :alt: Screenshot of Mantl UI in action
      :target: https://github.com/CiscoCloud/nginx-mantlui
 
