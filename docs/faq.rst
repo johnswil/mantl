@@ -6,9 +6,9 @@ How are Mantl components chosen_?
 
 A service design methodology was used to assemble Mantl components. Priority was given
 to sensing the large shifts in this technology and to defining an architecture 
-consistent with mode 1 to mode 2+ methodologies. Once the architecture was optimized 
-feedback was requested from the enterprise developers and SP partners. Popular open source
-projects were looked at in consideration of the stack.
+consistent with traditional and sequential as well as Agile. Once the architecture was optimized 
+feedback was requested from the enterprise developers and our service providing partners.
+Popular open source projects were reviewed in consideration of the stack.
 
 Open source is a big part of the culture we have at Cisco. Once we had the feedback and 
 Software options in mind, we created a prototype of Mantl in a project called Microservices
@@ -40,7 +40,7 @@ block storage, networking, etc. required to instantiate a Mantl host
 to an OpenStack cloud. The Terraform `OpenStack Provider
 <https://www.terraform.io/docs/providers/openstack/index.html>`_ would need to be
 updated since it does not support Magnum. If/when this is accomplished, adding
-Magnum support to Mantl should be straight forward.
+Magnum support to Mantl should be straightforward.
 
 Can I use Mantl with`Kubernetes <http://kubernetes.io/>`_?
 ----------------------------------------------------------------
