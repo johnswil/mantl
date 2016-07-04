@@ -13,13 +13,13 @@ Providers
 
 These are the supported DNS providers:
 
-.. toctree::
-   :maxdepth: 1
+* CloudFlare
 
-   cloudflare.rst
-   dnsimple.rst
-   clouddns.rst
-   route53.rst
+* DNSimple
+
+* GCP Cloud DNS
+
+* Route53
 
 DNS Records and Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -57,9 +57,8 @@ If you don't want the DNS records hanging off the apex, you can specify the
 records just before the apex. For example, if ``subdomain=.mantl`` in the
 previous config, the wildcard records would be ``*.mantl.example.com``.
 
-.. warning::
-   Due to a limitation in Terraform's string support, the subdomain *must* begin
-   with a period (for example ``.mantl``).
+Warning: Due to a limitation in Terraform's string support, the
+subdomain *must* begin with a period (for example ``.mantl``).
 
 The node records are intended to be used to access each node individually for
 maintenance. You can access the frontend web components of the Mantl cluster
