@@ -4,15 +4,15 @@ CenturyLinkCloud
 .. versionadded:: 1.0.3
 
 Terraform can use CLC to provision hosts for your cluster. You
-can `download Terraform from terraform.io
+can `download Terraform from Terraform.io
 <https://www.terraform.io/downloads.html>`_.
 
-Documentation on using the CLC driver with terraform is `available here
+Documentation on using the CLC driver with Terraform is `available here
 <https://www.terraform.io/docs/providers/clc/index.html>`_.
 
 
 
-NOTE: The CLC driver may not yet be available in the main terraform distribution.
+NOTE: The CLC driver may not yet be available in the main Terraform distribution.
 See also https://github.com/CenturyLinkCloud/terraform-provider-clc if absent. 
 
 
@@ -23,7 +23,7 @@ From the project root, copy the template located at
 ``terraform/clc.sample.tf`` to ``./clc.tf``
 
 
-In order to provision to CLC via terraform, login credentials are
+In order to provision to CLC via Terraform, login credentials are
 required. Trial accounts with free credits are available, sign-up
 `here <https://www.ctl.io>`_.
 
@@ -98,9 +98,9 @@ Additional settings are available for customization in
 Provisioning
 ------------
 
-Once you've reviewed and/or modified the settings, ``terraform get``
-will prepare your cluster, ``terraform plan`` can be reviewed to check
-the deployment, and ``terraform apply`` will provision the
+Once you've reviewed and/or modified the settings, ``Terraform get``
+will prepare your cluster, ``Terraform plan`` can be reviewed to check
+the deployment, and ``Terraform apply`` will provision the
 cluster. Afterwards, you can use the instructions in :doc:`getting
 started <index>` to install Mantl on your new cluster.
 
