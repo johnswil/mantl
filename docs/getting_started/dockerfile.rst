@@ -17,21 +17,20 @@ Setup
    directory for the cloud provider of your choices. See the following links for
    more information:
 
-   .. toctree::
-      :maxdepth: 1
+* 'Openstack<https://www.openstack.org/>'_
 
-      openstack.rst
-      gce.rst
-      aws.rst
+* 'Google Compute Engine<https://cloud.google.com/compute/docs/>'_
 
-3. Finally, you need to create a custom ansible playbook for your cluster. You
+* 'Amazon Web Services<https://aws.amazon.com/>'_
+
+3. Finally, you need to create a custom Ansible playbook for your cluster. You
    can copy `sample.yml` to `mantl.yml` in your root directory to
    get started.
 
 Building a Docker Image
 -------------------------
 
-Now you'll be able to build a docker image from the `Dockerfile`:
+Now you'll be able to build a Docker image from the `Dockerfile`:
 
 ``docker build -t mi .``
 
@@ -76,7 +75,7 @@ after the run. Note that we are also allocating a TTY for the container process
 (using ``-it``) so that we can enter our SSH key passphrase if necessary.
 
 The container should launch and provision the cluster using the ``security.yml``,
-Terraform template, and custom playbook that you configured in the Setup above.
+Terraform template, and custom playbook that you configured in the setup above.
 
 .. note:: If you have customized your Terraform template to use a different SSH
           public key than the default ``~/.ssh/id_rsa.pub``, you can specify the
