@@ -5,7 +5,7 @@ Google Compute Engine
 
 As of Mantl 0.3 you can bring up Google Compute Engine environments using
 Terraform. Mantl uses Terraform to provision hosts. You
-can `download Terraform from terraform.io
+can download Terraform from 'terraform.io
 <https://www.terraform.io/downloads.html>`_.
 
 Configuring Google Compute Engine for Terraform
@@ -44,13 +44,13 @@ customization. In the next sections, we'll explain how to obtain these settings.
 Basic Settings
 ^^^^^^^^^^^^^^
 
-``project``, ``region`` and ``zones`` are unique values for each project in Google Compute
+``Project``, ``region`` and ``zones`` are unique values for each project in Google Compute
 Engine. ``project`` is available from the project overview page (use the Project
-ID not the Project Name.) You can select which region and zones you want to use from any of the GCE zones (see
-the image below) If you're in the United States, (region) `us-central1` and (zones) `us-central1-a,us-central1-b,us-central1-c` are a good choice.
-If you're in Europe, `europe-west1` and `europe-west1-b,europe-west1-c` might be your best bets. If you haven't
-previously activated Compute Engine for your project, this is a good time to do
-it. 
+ID not the Project Name.) You can select which region and zones you want to use from any of
+the GCE zones (see the image below.) If you're in the United States, (region) `us-central1`
+and (zones) `us-central1-a,us-central1-b,us-central1-c` are good choices.
+If you're in Europe, `europe-west1` and `europe-west1-b,europe-west1-c` might be your best bets.
+If you haven't previously activated Compute Engine for your project, this is a good time to do it. 
 
 .. image:: /_static/gce_zones.png
    :alt: The GCE zones available at Product and Services menu -> Compute Engine -> Zones in their
@@ -138,12 +138,12 @@ Terraform stores the `state <https://www.terraform.io/docs/state/index.html>`_ o
 infrastructure in a file called "terraform.tfstate". This file can be stored locally 
 or in a `remote <https://www.terraform.io/docs/state/index.html>`_ location such as `consul <https://github.com/hashicorp/terraform/blob/master/state/remote/remote.go#L38>`_. 
 If you use the ``gce.sample.tf`` that is provided, by default the state of all the modules 
-are stored in local terraform.tfstate file at the root of this project.
+are stored in local terraform.tfstate files at the root of this project.
 
 Instead of storing the state for all the modules in one file, you might deploy the modules
 independently and have different terraform.tfstate for each module (either locally or remote). 
 This can help with blue/green deployments, or making sure you don't accidently override more static
-parts of the infrastructure such as the network. 
+parts of the infrastructure, such as the network. 
 
 In the gce.sample.tf we have included examples of how you would reference a remote state file for network variables. 
 
@@ -157,7 +157,6 @@ Then in your ``gce.tf`` file you would want to comment out:
   #   source = "./terraform/gce/network"
   #   network_ipv4 = "10.0.0.0/16"
   #}
-
 
 and uncomment:
 
