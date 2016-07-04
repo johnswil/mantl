@@ -1,28 +1,7 @@
 FAQs
 ====
 
-How are Mantl components chosen_?
---------------------------------------------------------------------------------------
-
-A service design methodology was used to assemble Mantl components. Priority was given
-to sensing the large shifts in this technology and to defining an architecture 
-consistent with traditional and sequential as well as Agile. Once the architecture was optimized 
-feedback was requested from the enterprise developers and our service providing partners.
-Popular open source projects were reviewed in consideration of the stack.
-
-Open source is a big part of the culture we have at Cisco. Once we had the feedback and 
-Software options in mind, we created a prototype of Mantl in a project called Microservices
-Infrastructure. This project has involved long living aspects of testing, optimizing,
-evaluating and scale testing.
-
-As we went into the service design phase, we looked at the gaps in today's tools
-and what the architure required as we approached those in the project. Our approach
-included networking (IP per container/group of containers), service discovery,
-service availability, security and application policy. In the end, we had the 
-components of Mantl which addressed the architectual needs, "best of breed" technology,
-and customer feedback.
-
-What's the relationship between Mantl and `OpenStack Magnum <https://wiki.openstack.org/wiki/Magnum>`_?
+What is the relationship between Mantl and `OpenStack Magnum <https://wiki.openstack.org/wiki/Magnum>`_?
 ---------------------------------------------------------------------------------------
 
 Mantl and Magnum are currently not integrated. However, the projects could
