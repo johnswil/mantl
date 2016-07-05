@@ -5,7 +5,7 @@ Google Compute Engine
 
 As of Mantl 0.3 you can bring up Google Compute Engine environments using
 Terraform. Mantl uses Terraform to provision hosts. You
-can 'download Terraform from 'terraform.io
+can 'download Terraform from terraform.io
 <https://www.terraform.io/downloads.html>`_.
 
 Configuring Google Compute Engine for Terraform
