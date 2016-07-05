@@ -175,7 +175,7 @@ and change all the network_name variables for the nodes to be:
   network_name = "${terraform_remote_state.gce-network.output.network_name}"
 
 Ideally you would store the state remotely, but configuring that is outside the scope of 
-this document. `Terraform remote start <http://blog.mattiasgees.be/2015/07/29/terraform-remote-state/>`_ is a 
+this document. `Terraform remote state <http://blog.mattiasgees.be/2015/07/29/terraform-remote-state/>`_ is a 
 good explanation on how to configure and use remote state. 
 
 Configuring DNS with Google Cloud DNS
