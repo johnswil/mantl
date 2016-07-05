@@ -43,7 +43,7 @@ customization. In the next sections, we'll explain how to obtain these settings.
 Basic Settings
 ^^^^^^^^^^^^^^
 
-``Project``, ``region`` and ``zones`` are unique values for each project in Google Compute
+``project``, ``region`` and ``zones`` are unique values for each project in Google Compute
 Engine. ``project`` is available from the project overview page (use the Project
 ID not the Project Name.) You can select which region and zones you want to use from any of
 the GCE zones (see the image below.) If you're in the United States, (region) `us-central1`
