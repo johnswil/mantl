@@ -17,6 +17,7 @@ distributed services
         - [Core Components](#core-components)
         - [Addons](#addons)
         - [Goals](#goals)
+        - [Design Philosophy](#design-philosophy)
         - [Architecture](#architecture)
         - [Control Nodes](#control-nodes)
         - [Resource Nodes](#resource-nodes)
@@ -76,6 +77,26 @@ See the `addons/` directory for the most up-to-date information.
 * Security
 * High availability
 * Rapid immutable deployment (with Terraform + Packer)
+
+### Design Philosophy
+
+A service design methodology was used to assemble Mantl components. Priority was given
+to sensing the large shifts in this technology and to defining an architecture 
+consistent with traditional,sequential as well as Agile methodologies. Once the architecture
+was optimized feedback was requested from enterprise developers and service partners.
+Popular open source projects were reviewed in consideration of the stack.
+ 
+Open source is a big part of the culture we have at Cisco. Once we had the feedback and 
+Software options in mind, we created a prototype of Mantl in a project called Microservices
+Infrastructure. This project has involved long living aspects of testing, optimizing,
+evaluating and scale testing.
+  
+As we went into the service design phase, we looked at the gaps in today's tools
+and what the architure required as we approached those in the project. Our approach
+included networking (IP per container/group of containers), service discovery,
+service availability, security and application policy. In the end, we had the 
+components of Mantl which addressed the architectual needs, "best of breed" technology,
+and customer feedback.
 
 ### Architecture
 
