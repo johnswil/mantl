@@ -34,7 +34,7 @@ Mantl has integrated both Apach Mesos and Kubernetes into it's container stack.
 This integration provides users the freedom to choose the best scheduler for their
 workloads promoting greater flexibility and choice.
 
-Containers are great for running stateless applications but what about data/stateful services_?
+Containers are great for running stateless applications but what about data/stateful services?
 ------------------------------------------------------------------------------------------------
 
 The container ecosystem is moving quickly, and durable persistent storage is one area
