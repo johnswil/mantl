@@ -30,7 +30,7 @@ workloads to ensure that their state matches the users declared intentions.
 Using the concepts of "labels" and "pods", it groups the containers which
 make up an application into logical units for management and discovery.
 
-Mantl has integrated both Apach Mesos and Kubernetes into it's container stack.
+Mantl has integrated both Apache Mesos and Kubernetes into it's container stack.
 This integration provides users the freedom to choose the best scheduler for their
 workloads promoting greater flexibility and choice.
 
